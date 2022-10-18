@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-Bookstore</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://kit.fontawesome.com/ef231670d1.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <section class="header">
+        <nav>
+            <div class="logo">
+            <a  href="index.html" ><img src="./images/logo.png" >
+                </a>
+            </div>
+
+            <div class="nav-links" id="navLinks">
+                <i class="fa-solid fa-xmark" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html" >Home</a></li>
+                    <li><a href="./html/about.html">About</a></li>
+                    <li><a href="./html/login.html">Login</a></li>
+                    <li><a href="./html/checkout.html">Cart</a></li>      
+                </ul>  
+                
+            </div>
+            <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+
+        </nav>
+        <div class="text-box">
+            <h1>Our New Best Seller Books</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro ea libero fugit cum minus officiis odio aliquam. <br> Non magni, excepturi fuga quos repellat rem. Tempora cum rem quae ratione dolorem.</p>
+            <a href="#books" class="hero-btn">Get Now! <i class="fa-solid fa-arrow-right"></i> </a>
+        </div>
+
+    </section>
+
+<section >
+    <h1 class="b_title" id="books" >Our New Best Seller Books</h1>
+    <form class="form-search"> 
+
+        <select>
+            <option value="0" disabled>Select Genre:</option>
+            <option value="1">New Release</option>
+            <option value="1">Popular</option>
+            <option value="1">Literary Fiction</option>
+            <option value="2">Mystery</option>
+            <option value="3">Thriller</option>
+            <option value="4">Horror</option>
+            <option value="4">Historical</option>
+          </select>
+
+        <input type="search" id="query" name="q" placeholder="Search...">
+        <button>Search</button>
+      </form>
+    <div class="book-container" > 
+        <div class="card">
+            <img src="images/image3.jpg" alt="" class="book-cover">
+            <div class="book-info">
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore minima perferendis doloribus fugit illum delectus voluptatem amet, dolor accusamus voluptate maiores facilis? Corrupti esse cupiditate quidem quaerat culpa ut temporibus.
+                </p>
+                <div class="buttons">
+                    <a href="" class="btn-cart">
+                        <i class="fa-solid fa-cart-shopping"></i>
+                       <span>  Add to Cart </span>
+
+                    </a>
+                    <a href="" class="btn-wishlist">
+                        <i class="fa-solid fa-star"></i>
+                        <span>Wishlist</span>
+
+                    </a>
+                    <a href="" class="btn-buy">
+                        Buy Now
+
+                    </a>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="images/image4.jpg" alt="" class="book-cover">
+            <div class="book-info">
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore minima perferendis doloribus fugit illum delectus voluptatem amet, dolor accusamus voluptate maiores facilis? Corrupti esse cupiditate quidem quaerat culpa ut temporibus.
+                </p>
+                <div class="buttons" >
+                    <a href="" class="btn-cart">
+                        <i class="fa-solid fa-cart-shopping"></i>
+                       <span> Add to Cart </span>
+
+                    </a>
+                    <a href="" class="btn-wishlist">
+                        <i class="fa-solid fa-star"></i>
+                        <span>Wishlist</span>
+
+                    </a>
+                    <a href="" class="btn-buy">
+                        Buy Now
+
+                    </a>
+                </div>
+
+            </div>
+        </div>
+        <div class="card">
+            <img class="book-cover" src="images/image1.jpg"  >
+            <div class="book-info">
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore minima perferendis doloribus fugit illum delectus voluptatem amet, dolor 
+                </p>
+                <div class="buttons">
+                    <a href="" class="btn-cart">
+                        <i class="fa-solid fa-cart-shopping"></i>
+                       <span>Add to Cart</span>
+                    </a>
+                    <a href="" class="btn-wishlist">
+                        <i class="fa-solid fa-star"></i>
+                        <span>Wishlist</span>
+                    </a>
+                    <a href="" class="btn-buy">
+                        Buy Now
+                    </a>
+                </div>
+
+            </div>
+        </div>
+        
+
+        <div class="card">
+            <img src="images/image2.jpg" alt="" class="book-cover">
+            <div class="book-info">
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore minima perferendis doloribus fugit <span> illum delectus voluptatem amet, dolor accusamus voluptate maiores facilis? Corrupti esse cupiditate quidem quaerat culpa ut temporibus.</span>
+                    <span class="read-more"><a href="#">read-more</a></span>
+                </p>
+                <div class="buttons">
+                    <a href="" class="btn-cart">
+                        <i class="fa-solid fa-cart-shopping"></i>
+                       <span>  Add to Cart </span>
+
+                    </a>
+                    <a href="" class="btn-wishlist">
+                        <i class="fa-solid fa-star"></i>
+                        <span>Wishlist</span>
+
+                    </a>
+                    <a href="" class="btn-buy">
+                        Buy Now
+
+                    </a>
+                </div>
+
+            </div>
+        </div>
+
+
+
+        <div class="card">
+            <img src="images/image3.jpg" alt="" class="book-cover">
+            <div class="book-info">
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore minima perferendis doloribus fugit illum delectus voluptatem amet, dolor accusamus voluptate maiores facilis? Corrupti esse cupiditate quidem quaerat culpa ut temporibus.
+                </p>
+                <div class="buttons">
+                    <a href="" class="btn-cart">
+                        <i class="fa-solid fa-cart-shopping"></i>
+                       <span>  Add to Cart </span>
+
+                    </a>
+                    <a href="" class="btn-wishlist">
+                        <i class="fa-solid fa-star"></i>
+                        <span>Wishlist</span>
+
+                    </a>
+                    <a href="" class="btn-buy">
+                        Buy Now
+
+                    </a>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="images/image4.jpg" alt="" class="book-cover">
+            <div class="book-info">
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore minima perferendis doloribus fugit illum delectus voluptatem amet, dolor accusamus voluptate maiores facilis? Corrupti esse cupiditate quidem quaerat culpa ut temporibus.
+                </p>
+                <div class="buttons" >
+                    <a href="" class="btn-cart">
+                        <i class="fa-solid fa-cart-shopping"></i>
+                       <span> Add to Cart </span>
+
+                    </a>
+                    <a href="" class="btn-wishlist">
+                        <i class="fa-solid fa-star"></i>
+                        <span>Wishlist</span>
+
+                    </a>
+                    <a href="" class="btn-buy">
+                        Buy Now
+
+                    </a>
+                </div>
+
+            </div>
+        </div>
+        <div class="card">
+            <img class="book-cover" src="images/image1.jpg"  >
+            <div class="book-info">
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore minima perferendis doloribus fugit illum delectus voluptatem amet, dolor 
+                </p>
+                <div class="buttons">
+                    <a href="" class="btn-cart">
+                        <i class="fa-solid fa-cart-shopping"></i>
+                       <span>Add to Cart</span>
+                    </a>
+                    <a href="" class="btn-wishlist">
+                        <i class="fa-solid fa-star"></i>
+                        <span>Wishlist</span>
+                    </a>
+                    <a href="" class="btn-buy">
+                        Buy Now
+                    </a>
+                </div>
+
+            </div>
+        </div>
+        
+
+        <div class="card">
+            <img src="images/image2.jpg" alt="" class="book-cover">
+            <div class="book-info">
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore minima perferendis doloribus fugit <span> illum delectus voluptatem amet, dolor accusamus voluptate maiores facilis? Corrupti esse cupiditate quidem quaerat culpa ut temporibus.</span>
+                    <span class="read-more"><a href="#">read-more</a></span>
+                </p>
+                <div class="buttons">
+                    <a href="" class="btn-cart">
+                        <i class="fa-solid fa-cart-shopping"></i>
+                       <span>  Add to Cart </span>
+
+                    </a>
+                    <a href="" class="btn-wishlist">
+                        <i class="fa-solid fa-star"></i>
+                        <span>Wishlist</span>
+
+                    </a>
+                    <a href="" class="btn-buy">
+                        Buy Now
+
+                    </a>
+                </div>
+
+            </div>
+        </div>
+
+
+
+        <div class="card">
+            <img src="images/image3.jpg" alt="" class="book-cover">
+            <div class="book-info">
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore minima perferendis doloribus fugit illum delectus voluptatem amet, dolor accusamus voluptate maiores facilis? Corrupti esse cupiditate quidem quaerat culpa ut temporibus.
+                </p>
+                <div class="buttons">
+                    <a href="" class="btn-cart">
+                        <i class="fa-solid fa-cart-shopping"></i>
+                       <span>  Add to Cart </span>
+
+                    </a>
+                    <a href="" class="btn-wishlist">
+                        <i class="fa-solid fa-star"></i>
+                        <span>Wishlist</span>
+
+                    </a>
+                    <a href="" class="btn-buy">
+                        Buy Now
+
+                    </a>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="images/image4.jpg" alt="" class="book-cover">
+            <div class="book-info">
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore minima perferendis doloribus fugit illum delectus voluptatem amet, dolor accusamus voluptate maiores facilis? Corrupti esse cupiditate quidem quaerat culpa ut temporibus.
+                </p>
+                <div class="buttons" >
+                    <a href="" class="btn-cart">
+                        <i class="fa-solid fa-cart-shopping"></i>
+                       <span> Add to Cart </span>
+
+                    </a>
+                    <a href="" class="btn-wishlist">
+                        <i class="fa-solid fa-star"></i>
+                        <span>Wishlist</span>
+
+                    </a>
+                    <a href="" class="btn-buy">
+                        Buy Now
+
+                    </a>
+                </div>
+
+            </div>
+        </div>
+        
+        
+
+    </div>
+    <div class="checkout">
+    <a href="./html/checkout.html" ><span>GO TO BILLING INFORMATION</span></a>
+</div>
+
+</section>
+
+<footer class="footer-distributed">
+
+    <div class="footer-left">
+  <img src="./images/logo.png">
+        <h3>About<span> E-Bookstore</span></h3>
+
+        <p class="footer-links">
+            <a href="index.html">Home</a>
+            |
+            <a href="./html/about.html">About</a>
+            |
+            <a href="./html/login.html">Login</a>
+            |
+            <a href="./html/checkout.html">Cart</a>
+        </p>
+
+        <p class="footer-company-name">© 2022 E-Bookstore</p>
+    </div>
+
+    <div class="footer-center">
+        <div>
+            <i class="fa fa-map-marker"></i>
+              <p><span>0089 Barangay 12 Poblacion</span>
+                Batangas City</p>
+        </div>
+
+        <div>
+            <i class="fa fa-phone"></i>
+            <p>+639-358-9999</p>
+        </div>
+        <div>
+            <i class="fa fa-envelope"></i>
+            <p><a href="#">support@E-Bookstore</a></p>
+        </div>
+    </div>
+    <div class="footer-right">
+        <p class="footer-company-about">
+            <span>About the company</span>
+           Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem ipsa, laboriosam at numquam commodi voluptatem accusamus, assumenda suscipit cupiditate ratione quod asperiores ad. Magni error sunt dolore facere adipisci dolor?</p>
+        <div class="footer-icons">
+            <a href="#"><i class="fa fa-facebook"></i></a>
+            <a href="#"><i class="fa fa-twitter"></i></a>
+            <a href="#"><i class="fa fa-instagram"></i></a>
+            <a href="#"><i class="fa fa-linkedin"></i></a>
+            <a href="#"><i class="fa fa-youtube"></i></a>
+        </div>
+    </div>
+</footer>
+   <script>
+
+        var navLinks = document.getElementById("navLinks");
+
+        function showMenu(){
+            navLinks.style.right="0";
+        }
+        function hideMenu(){
+            navLinks.style.right ="-200px";
+        }
+
+        
+
+   </script>
+</body>
+</html>
